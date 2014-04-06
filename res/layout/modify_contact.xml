@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent" >
+	<TableRow
+		android:layout_width="fill_parent"
+		android:layout_height="match_parent" >
+		<TextView
+			android:id="@+id/edit_name_tv"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/name" />
+		<EditText
+			android:id="@+id/edit_name_et"
+			android:layout_width="200dp"
+			android:layout_height="wrap_content"
+			android:hint="@string/edit_name_hint"
+			android:inputType="textPersonName" />
+	</TableRow>
+	<TableRow
+		android:layout_width="fill_parent"
+		android:layout_height="match_parent" >
+		<TextView
+			android:id="@+id/edit_phone_tv"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/phone" />
+		<EditText
+			android:id="@+id/edit_phone_et"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:hint="@string/phone_hint"
+			android:inputType="phone" />
+	</TableRow>
+</TableLayout>

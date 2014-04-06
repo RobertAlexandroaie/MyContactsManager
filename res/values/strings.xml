@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">My Contacts Manager</string>
+	<string name="action_settings">Settings</string>
+	<string name="hello_world">Hello world!</string>
+	<string name="save_path">/sdcard/MyContacts/agenda.cnt</string>
+	<string name="modify">Modify</string>
+	<string name="call">Call</string>
+	<string name="delete">Delete</string>
+	<string name="name">Name:</string>
+	<string name="edit_name_hint">The name of the user.</string>
+	<string name="phone">Phone:</string>
+	<string name="phone_hint">Phone nuber of this contact.</string>
+	<string name="add_contact">Add contact</string>
+</resources>
